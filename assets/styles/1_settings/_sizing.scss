@@ -1,0 +1,36 @@
+// SPACING
+
+$spacing-bootstrap: 15px;
+// bootstrap is included in the project. give it a specific variable,
+// so we know which properties depend on bootstrap's spacing system
+$negative-spacing-bootstrap: -15px;
+
+/* spacing is based on 8px multiples.
+* we need quite a few of them, especially for the typography.
+* for overall spacing between elements, try to stick to the limited set below
+* Naming spacing vars after their px value makes them easy to reason about, while maintaining a limited set.
+* defining them in rem makes them scale along nicely if an end user has changed their default browser font-size */
+$spacing-4: 0.25rem;
+$spacing-8: 0.5rem;
+$spacing-16: 1rem;
+$spacing-24: 1.5rem;
+$spacing-32: 2rem;
+$spacing-40: 2.5rem;
+$spacing-48: 3rem;
+$spacing-64: 4rem;
+
+// try to stick to this more limited set
+$spacing-xs: $spacing-8;
+$spacing-sm: $spacing-16;
+$spacing-md: $spacing-32;
+$spacing-lg: $spacing-64;
+$spacing-default: $spacing-sm;
+
+//  BUTTONS
+$height-btn-default: 3.5rem;
+$border-width-btn: 2px;
+$border-radius-btn: calc(0.5 * #{$height-btn-default});
+$size-button-icon-only: 2.5rem;
+
+// ICONS
+$icon-size-default: 1.25em;

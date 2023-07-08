@@ -1,0 +1,42 @@
+$border-color-form-element-default: $color-warm-grey;
+$border-form-element-default: 1px solid $border-color-form-element-default;
+$border-radius-form-element-default: $border-radius-xs;
+
+$padding-hor-form-element: $spacing-sm;
+$padding-vert-form-element: $spacing-xs;
+$padding-form-element: $padding-vert-form-element $padding-hor-form-element;
+
+$width-form-label: 20rem;
+
+// vars for radio
+$radio-size: 1.785em;
+$border-color-radio-hover: $color-primary;
+$box-shadow-radio-hover: 0 0 0 1px rgba($color-primary, 0.2);
+
+// vars for checkbox
+$checkbox-size: 1.25em;
+$bg-color-checkbox: transparent;
+$bg-color-checkbox-checked: $bg-color-checkbox;
+
+$border-color-checkbox: $border-color-form-element-default;
+$border-color-checkbox-hover: $border-color-form-element-default;
+$box-shadow-checkbox-hover: 0 0 0 0.25rem rgba($color-primary, 0.2);
+$border-color-checkbox-focus: $color-cerulean;
+$border-color-checkbox-disabled: $color-silver;
+$border-radius-checkbox: $border-radius-form-element-default;
+
+// icon
+$font-size-checkbox-icon: 0.6em;
+$color-checkbox-icon-active: $color-primary;
+$color-checkbox-icon-disabled: $color-silver;
+
+// checkbox label
+$padding-left-checkbox-label: calc(#{$checkbox-size} + #{$spacing-16});
+$color-checkbox-label-disabled: $color-warm-grey;
+
+// specific forms
+$width-cart-list-quantity-container: 8.1rem; // fits 6 characters
+$width-cart-list-quantity-label-container: calc(
+  #{$width-cart-list-quantity-container} + 4rem
+); // quantity + 4 rem (trash btn)
+$width-cart-list-price-label-container: 8rem; // visually determined to allow ample space for 'Price (<currency>)' label

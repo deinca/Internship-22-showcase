@@ -1,0 +1,44 @@
+// font-families
+$font-family-default: 'HelveticaNeue', 'Open Sans', sans-serif;
+// fallback only used when display of default is problematic such as with displaying prices
+// because in that font, 1s and 5s are higher in length than other numbers
+$font-family-fallback: arial, helvetica, sans-serif;
+
+// font-sizes
+
+// define font-size and line-height together so we only need to specify one property
+// 14px | mobile: h4, body | desktop: small text, footnotes
+$font-14: 0.875rem/1.5 $font-family-default; // 14px/21px (typogram in DSM said 14/18 but that's too small)
+// 16px | mobile: h3 | desktop: h4, body
+$font-16: 1rem/1.5 $font-family-default; // 16px/24px
+// 18px | mobile: h2 | desktop: h3, intro paragraphs
+$font-18: 1.125rem/1.555555556 $font-family-default; // 18px/28px
+// 21px | mobile: occasional heading | desktop: occasional heading
+$font-21: 1.3125rem/1.333333333 $font-family-default; // 21px/28px
+// 24px | mobile: h1 | Desktop: h2
+$font-24: 1.5rem/1.333333333 $font-family-default; // 24px/32px
+// 32px | mobile: h1 | Desktop: alternative to h1 or h2
+$font-32: 2rem/1.3125 $font-family-default; // 32px/43px
+// 48px | mobile: not used | Desktop: h1
+$font-48: 3rem/1.125 $font-family-default; // 48px/54px
+
+//-- bottom margin for every font-size
+$margin-bottom-font-14: 1rem;
+$margin-bottom-font-16: 1rem;
+// according to typogram: 2rem, but when looking at design,
+// most elements with font-size 16 have a margin of around 16px.
+$margin-bottom-font-18: 2rem;
+$margin-bottom-font-21: 2rem;
+$margin-bottom-font-24: 2rem;
+$margin-bottom-font-48: 2.75rem;
+
+// -- Start unused font-sizes (and margins) --
+// DSM defines some font-sizes that are used in the global wavin project,
+// but not in commerce. I'll leave them here as reference.
+// if you need to use one of these, move them to the definitions above
+$font-37: 2.3125rem/1.135135135 $font-family-default; // 37px/42px
+$font-56: 3.5rem/1.142857143 $font-family-default; // 56px/64px
+$margin-bottom-font-32: 2.5rem;
+$margin-bottom-font-37: 2.5rem;
+$margin-bottom-font-56: 3.25rem;
+//-- End unused font-sizes --

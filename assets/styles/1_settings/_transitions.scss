@@ -1,0 +1,84 @@
+$transition-dur-instant: 0.1s; /* for animations that need to feel instant, like toggling a switch from (• ) to ( •) */
+$transition-dur-faster: 0.15s;
+$transition-dur-fast: 0.2s; /* suitable for most animations like color changes */
+$transition-easing-default: ease-in-out;
+$transition-instant: $transition-dur-instant $transition-easing-default;
+$transition-faster: $transition-dur-faster $transition-easing-default;
+$transition-fast: $transition-dur-fast $transition-easing-default;
+$duration-and-delay-values: 75, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550,
+  600, 700;
+$translate-offset-em-values: 1, 2, 3, 4;
+
+// page and layout transitions
+.page-enter-active,
+.page-leave-active {
+  transition: opacity $transition-faster;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity $transition-faster, transform $transition-faster;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+  transform: translate3d(0, -9px, 0);
+}
+
+// Transition Type
+.transition {
+  transition-property: all;
+}
+
+// Transition Delay
+@each $time in $duration-and-delay-values {
+  .delay-#{$time} {
+    transition-delay: #{$time}ms;
+  }
+}
+
+// Transition Duration
+@each $time in $duration-and-delay-values {
+  .duration-#{$time} {
+    transition-duration: #{$time}ms;
+  }
+}
+
+// Transition mode
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Classes used for transitions
+// Opacity
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
+
+// Transform
+.transform-y-0 {
+  transform: translateY(0);
+}
+
+// Transform positive & negative
+@each $em in $translate-offset-em-values {
+  .translate-y-#{$em} {
+    transform: translateY(#{$em}em);
+  }
+  .-translate-y-#{$em} {
+    transform: translateY(-#{$em}em);
+  }
+}

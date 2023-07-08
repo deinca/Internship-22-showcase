@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>min</title>
+    <g id="min" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 3.000000)">
+            <rect id="Rectangle-Copy-35" x="0" y="0" width="94" height="94" rx="47"></rect>
+            <g id="Icon---menu-close-Copy-4" transform="translate(16.000000, 18.000000)"  >
+                <g id="Icon---menu-close-Copy-3" transform="translate(31.000000, 29.000000) rotate(-90.000000) translate(-31.000000, -29.000000) translate(2.000000, -2.000000)">
+                    <path d="M14.236531,10.5262016 L48.9190245,46.1746531 L43.763469,51.4737984 L31.5139755,38.8832016 L31.5337573,38.8643777 L21.6908309,28.7473115 L21.6709755,28.7662016 L9.08097546,15.8253469 L14.236531,10.5262016 Z" id="Combined-Shape" transform="translate(29.000000, 31.000000) rotate(-315.000000) translate(-29.000000, -31.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

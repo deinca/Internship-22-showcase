@@ -1,0 +1,32 @@
+/* DO NOT SKIP THIS COMMENT (No, not even you)
+*
+* This is a license-like file needed for MyFont
+* It just imports a url.
+* Instead of including it in main.scss, we have included it in the head-object in nuxt.config.js
+* I'm leaving this file here as a reference
+*/
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3891665, 2020-04-17T02:54:12-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: HelveticaNeueLTPro-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-55-roman/
+ *
+ * Webfont: HelveticaNeueLTPro-Bd by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-75-bold/
+ *
+ *
+ * Webfonts copyright: Copyright &amp;#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ *
+ * © 2020 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url('https://hello.myfonts.net/count/3b61d1');

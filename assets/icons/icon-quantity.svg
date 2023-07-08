@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>quantity</title>
+    <g id="quantity" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+        <g transform="translate(10.000000, 6.000000)" >
+            <rect id="Rectangle" x="0" y="78" width="80" height="10"></rect>
+            <g id="Group-Copy-2" transform="translate(39.000000, 35.500000) scale(-1, 1) rotate(-90.000000) translate(-39.000000, -35.500000) translate(4.000000, 1.000000)">
+                <g id="Icon-arrow" transform="translate(-0.000000, 0.602968)">
+                    <rect id="Rectangle-Copy-3" x="-2.72848411e-12" y="29.196475" width="42.6666667" height="9.61781076"></rect>
+                    <path d="M60.7281578,56.6072356 L50.0614911,56.6072356 L50.0608245,21.020525 L10.5948245,21.0213358 L10.5948245,11.403525 L60.7281578,11.403525 L60.7281578,56.6072356 Z" id="Combined-Shape" transform="translate(35.661491, 34.005380) rotate(-315.000000) translate(-35.661491, -34.005380) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

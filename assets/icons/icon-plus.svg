@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plus</title>
+    <g id="plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plus" transform="translate(3.000000, 3.000000)">
+            <rect id="Rectangle-Copy-37"  x="0" y="0" width="94" height="94" rx="47"></rect>
+            <path d="M61.9543759,26.7365586 L67.1765981,31.9812581 L52.2214019,46.9995586 L67.1765981,62.0187419 L61.9543759,67.2634414 L49.5474019,54.8025586 L49.5665214,54.7835756 L39.5963158,44.7704566 L39.5764019,44.7885586 L26.8234019,31.9812581 L32.0456241,26.7365586 L46.9994019,41.7545586 L61.9543759,26.7365586 Z M38.4734019,50.3175586 L43.6954019,55.5625586 L32.0456241,67.2634414 L26.8234019,62.0187419 L38.4734019,50.3175586 Z" id="Combined-Shape" fill="currentColor" transform="translate(47.000000, 47.000000) rotate(-135.000000) translate(-47.000000, -47.000000) "></path>
+        </g>
+    </g>
+</svg>

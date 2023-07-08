@@ -1,0 +1,73 @@
+// define screen sizes we can refer to for breakpoints
+// these correspond with the breakpoints from Bootstrap's grid system
+$screen-xs: 0; /* < 576px */
+$screen-sm: 36em; /* 576px */
+$screen-md: 48em; /* 768px */
+$screen-lg: 62em; /* 992px */
+$screen-xl: 90em; /* 1440px */
+
+$screen-large-type: $screen-md;
+
+$screen-xs-max: $screen-sm - 0.001em; /* there is no min, xs starts at 0 */
+$screen-sm-max: $screen-md - 0.001em;
+$screen-md-max: $screen-lg - 0.001em;
+$screen-lg-max: $screen-xl - 0.001em;
+$screen-xl-max: 10000em;
+
+$screen-small-type-max: $screen-sm-max;
+
+$breakpoints: (
+  xs: (
+    min: 0,
+    max: $screen-xs-max,
+  ),
+  sm: (
+    min: $screen-sm,
+    max: $screen-sm-max,
+  ),
+  md: (
+    min: $screen-md,
+    max: $screen-md-max,
+  ),
+  lg: (
+    min: $screen-lg,
+    max: $screen-lg-max,
+  ),
+  xl: (
+    min: $screen-xl,
+    max: $screen-xl-max,
+  ),
+  small-type: (
+    min: 0,
+    max: $screen-small-type-max,
+  ),
+  large-type: (
+    min: $screen-large-type,
+    max: $screen-xl-max,
+  ),
+);
+
+// sizes of bootstrap grid containers
+$grid-container-width-xs: 100%;
+$grid-container-width-sm: 540px;
+$grid-container-width-md: 720px;
+$grid-container-width-lg: 960px;
+$grid-container-width-xl: 1312px;
+
+// define css custom property for grid-container-size
+// that will be adjusted render time
+:root {
+  --width-grid-container: #{$grid-container-width-xs};
+  @media only screen and (min-width: $screen-sm) {
+    --width-grid-container: #{$grid-container-width-sm};
+  }
+  @media only screen and (min-width: $screen-md) {
+    --width-grid-container: #{$grid-container-width-md};
+  }
+  @media only screen and (min-width: $screen-lg) {
+    --width-grid-container: #{$grid-container-width-lg};
+  }
+  @media only screen and (min-width: $screen-xl) {
+    --width-grid-container: #{$grid-container-width-xl};
+  }
+}

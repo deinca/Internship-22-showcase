@@ -1,0 +1,87 @@
+/* _
+* The color palette is defined in Wavin DSM (https://valtech.invisionapp.com/dsm/valtech/wavin/folder/colors/5e453559ae7c389ca87affec)
+*/
+
+// USE SASS VARIABLES
+// for things that are constants, that do not change at runtime
+// USE CSS CUSTOM PROPERTIES
+// for things that are variable at runtime
+
+//-- Start color definitions
+// grey colors, dark to light
+$color-black: rgb(0, 0, 0);
+$color-mine-shaft: rgb(51, 51, 51); // #333333
+$color-boulder: rgb(119, 119, 119); // #777777
+$color-warm-grey: rgb(146, 146, 146); // #929292
+$color-silver: rgb(185, 185, 185); // #b9b9b9 (previous name: grey)
+$color-porcelain: rgb(233, 236, 238); // #e9ecee (previous name: pale-gray)
+$color-seashell: rgb(241, 241, 241); // #f1f1f1
+$color-alabaster: rgb(248, 248, 248); // #f8f8f8 accent for seashell
+$color-white: rgb(255, 255, 255);
+
+// wavin colors
+$color-midnight-blue: rgb(0, 34, 105); // primary dark blue #002269
+$color-tory-blue: rgb(19, 67, 152); // primary blue #134398
+$color-fun-green: rgb(0, 149, 59); // secondary green #00953b
+$color-pumpkin: rgb(255, 109, 16); // secondary bright orange #ff6d10
+$color-cerulean: rgb(0, 168, 225); // primary light blue #00a8e1
+$color-old-brick: rgb(143, 30, 28); // supporting burgundy #8f1e1c
+$color-monza: rgb(208, 2, 27); // error handling red monza #d0021b
+$color-cherub: rgb(248, 217, 221); // error handling background #f8d9dd
+$color-plum: rgb(128, 33, 126); // supporting purple #80217e
+$color-domino: rgb(141, 122, 91); // supporting bronze #8d7a5b
+$color-tuscany: rgb(208, 101, 49); // secondary orange #d06531
+$color-pampas: rgb(238, 234, 229); // not mentioned in DSM; #eeeae5
+
+$color-apple: rgba(76, 186, 56, 0.2); // not mentioned in DSM; #4cba38
+$color-selective-yellow: rgba(255, 187, 16, 0.2); //#ffbb10
+$color-catskill-white-light: rgb(243, 246, 250); // #f3f6fa
+$color-catskill-white: rgb(231, 236, 245); // #E7ECF5;
+//-- End color definitions --
+
+//-- Start assigning color definitions to specific use cases
+$color-primary: $color-tory-blue;
+$color-primary-darker: $color-midnight-blue;
+$color-primary-hover: $color-primary-darker;
+$color-accent: $color-cerulean;
+
+// Text colors
+$color-text-default: $color-black;
+$color-text-on-dark-default: $color-white;
+$color-anchor: $color-primary;
+$color-text-muted: $color-warm-grey;
+$color-text-slightly-muted: $color-mine-shaft;
+$color-text-error: $color-monza;
+$color-text-valid: $color-fun-green;
+$color-text-warning: $color-pumpkin;
+
+// Background-colors
+$color-bg-primary: $color-primary;
+$color-bg-light: $color-porcelain;
+$color-bg-light-hover: $color-alabaster;
+$color-bg-blue-light: $color-catskill-white;
+$color-bg-blue-lighter: $color-catskill-white-light;
+
+// Status-colors
+$color-error: $color-monza;
+$color-bg-success: $color-apple;
+$color-bg-error: $color-cherub;
+$color-bg-info: $color-bg-blue-light;
+$color-bg-warning: $color-selective-yellow;
+
+// define box shadow vars
+$box-shadow-btn-primary: 0 1px 4px $color-primary;
+$box-shadow-btn-primary-elevated: 0 8px 4px $color-primary;
+$box-shadow-btn-accent: 0 0 0 2px $color-accent;
+$box-shadow-btn-midnight-blue: 0 1px 4px $color-midnight-blue;
+$box-shadow-btn-midnight-blue-elevated: 0 8px 4px
+  rgba($color-midnight-blue, 0.8);
+$box-shadow-btn-black: 0 6px 10px rgba($color-black, 0.15);
+$box-shadow-card: 0 2px 5px rgba($color-black, 0.25);
+$box-shadow-card-elevated: 0 2px 20px 0 rgba($color-black, 0.15);
+$box-shadow-card-hover: 0 10px 20px 0 rgba($color-black, 0.15);
+
+// border-colors
+$border-color-divider: $color-silver;
+
+//-- End color assignments --

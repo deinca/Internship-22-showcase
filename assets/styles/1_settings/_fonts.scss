@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('~assets/fonts/HelveticaNeueLTPro-Roman/font-woff2.woff2')
+      format('woff2'),
+    url('~assets/fonts/HelveticaNeueLTPro-Roman/font-woff.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('~assets/fonts/HelveticaNeueLTPro-Bd/font-woff2.woff2')
+      format('woff2'),
+    url('~assets/fonts/HelveticaNeueLTPro-Bd/font-woff.woff') format('woff');
+  font-weight: bold;
+  font-display: swap;
+}
